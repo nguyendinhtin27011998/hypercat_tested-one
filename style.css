@@ -1,0 +1,98 @@
+body{
+   /* background-color:antiquewhite;*/
+    width: 100%;
+}
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header ul,header_2 ul{
+    background-color: black;
+    list-style-type: none;
+    text-align: center;
+    margin: 0px; 
+}
+.header li, .header_2 li{
+    color: white;
+    display: inline-block; /*vừa là dạng khối , vừa là dạng ngang, thích hợp để làm full background_color */
+    background-color: inherit;
+    font-weight: 900;   
+    height: 45px;
+    line-height:45px;
+    margin-right: 10px;
+}
+.header a, .header_2 a{
+    text-decoration: none;
+    color: white;
+}
+.header li:hover {
+    background-color: red;
+}
+.header_2{
+    background-color:dodgerblue;
+}
+.header_2 li.color:hover{
+    background-color: red;
+}
+.title{                 /*sai mợ: lỗi: vẫn còn khoảng hở 1 tý 2 bên trái phải*/
+    text-align: center;
+    padding-top: 45px;
+    background-color: azure;
+}
+.find{
+    margin-left: 30%;
+}
+.find_background_color:hover{
+    background-color: dodgerblue;
+}
+input[type="text"]{
+    border: solid #FFFFFF;
+    width: 300px;
+    height: 25px;
+    border-radius: 40px;
+}
+
+.content_left{
+    /*background-color: aqua;
+    border: solid;*/
+    float: left;
+    height: auto;
+    width: 65%;
+}
+
+.content_right{
+    /*border: solid;
+    background-color: aquamarine;*/
+    float: right;
+    width: 30%;
+}
+.content_right h3{
+    padding-left: 14%;
+}
+.content_right .text_align li a{
+    text-decoration: none;
+}
+.content_right .text_align{
+    list-style-type: none;
+}
+
+.remove_float{
+    clear: left;
+}
+.content_left .image_content{
+    float: left;
+}
+.content_left .image_content{
+    margin-right: 10px;
+}
+.footer{
+    background-color: black;
+    color:white;
+    height: 45px;
+    line-height: 45px;
+    clear: left;
+    text-align: center;
+}
+
